@@ -1,0 +1,230 @@
+[
+  {
+    "name": "Built-in Seeded E-Commerce",
+    "url": "http://127.0.0.1:8000/demo",
+    "category": "Baseline Benchmark",
+    "status": "COMPLETED",
+    "duration_sec": 7.25,
+    "states_discovered": 2,
+    "transitions_recorded": 6,
+    "total_bugs": 4,
+    "bug_breakdown": [
+      {
+        "id": "BUG-001",
+        "severity": "HIGH",
+        "oracle_type": "SILENT_API_ERROR",
+        "title": "Silent GraphQL/API 200-OK Hidden Error"
+      },
+      {
+        "id": "BUG-002",
+        "severity": "HIGH",
+        "oracle_type": "CONSOLE_EXCEPTION",
+        "title": "Uncaught JavaScript Exception: ConsoleError"
+      },
+      {
+        "id": "BUG-003",
+        "severity": "MEDIUM",
+        "oracle_type": "VISUAL_ASSET",
+        "title": "Broken Visual Asset (naturalWidth === 0): non_existent_pulsebuds_v4_corrupted.png"
+      },
+      {
+        "id": "BUG-004",
+        "severity": "HIGH",
+        "oracle_type": "CONSOLE_EXCEPTION",
+        "title": "Uncaught JavaScript Exception: UncaughtException"
+      }
+    ]
+  },
+  {
+    "name": "The Internet (QA Playground)",
+    "url": "https://the-internet.herokuapp.com",
+    "category": "QA Testing Benchmark",
+    "status": "COMPLETED",
+    "duration_sec": 18.51,
+    "states_discovered": 3,
+    "transitions_recorded": 5,
+    "total_bugs": 6,
+    "bug_breakdown": [
+      {
+        "id": "BUG-001",
+        "severity": "HIGH",
+        "oracle_type": "NETWORK_500",
+        "title": "Server Error FAILED on event"
+      },
+      {
+        "id": "BUG-002",
+        "severity": "HIGH",
+        "oracle_type": "CONSOLE_EXCEPTION",
+        "title": "Uncaught JavaScript Exception: ConsoleError"
+      },
+      {
+        "id": "BUG-003",
+        "severity": "HIGH",
+        "oracle_type": "NETWORK_500",
+        "title": "Server Error FAILED on event"
+      },
+      {
+        "id": "BUG-004",
+        "severity": "HIGH",
+        "oracle_type": "CONSOLE_EXCEPTION",
+        "title": "Uncaught JavaScript Exception: ConsoleError"
+      },
+      {
+        "id": "BUG-005",
+        "severity": "HIGH",
+        "oracle_type": "NETWORK_500",
+        "title": "Server Error FAILED on event"
+      },
+      {
+        "id": "BUG-006",
+        "severity": "HIGH",
+        "oracle_type": "CONSOLE_EXCEPTION",
+        "title": "Uncaught JavaScript Exception: ConsoleError"
+      }
+    ]
+  },
+  {
+    "name": "Books to Scrape Sandbox",
+    "url": "https://books.toscrape.com",
+    "category": "E-Commerce Catalog",
+    "status": "COMPLETED",
+    "duration_sec": 8.1,
+    "states_discovered": 2,
+    "transitions_recorded": 4,
+    "total_bugs": 7,
+    "bug_breakdown": [
+      {
+        "id": "BUG-001",
+        "severity": "HIGH",
+        "oracle_type": "NETWORK_500",
+        "title": "Server Error FAILED on jquery.min.js"
+      },
+      {
+        "id": "BUG-002",
+        "severity": "HIGH",
+        "oracle_type": "CONSOLE_EXCEPTION",
+        "title": "Uncaught JavaScript Exception: ConsoleError"
+      },
+      {
+        "id": "BUG-003",
+        "severity": "HIGH",
+        "oracle_type": "CONSOLE_EXCEPTION",
+        "title": "Uncaught JavaScript Exception: ConsoleError"
+      },
+      {
+        "id": "BUG-004",
+        "severity": "HIGH",
+        "oracle_type": "NETWORK_500",
+        "title": "Server Error FAILED on jquery.min.js"
+      },
+      {
+        "id": "BUG-005",
+        "severity": "HIGH",
+        "oracle_type": "CONSOLE_EXCEPTION",
+        "title": "Uncaught JavaScript Exception: ConsoleError"
+      },
+      {
+        "id": "BUG-006",
+        "severity": "HIGH",
+        "oracle_type": "NETWORK_500",
+        "title": "Server Error FAILED on jquery.min.js"
+      },
+      {
+        "id": "BUG-007",
+        "severity": "HIGH",
+        "oracle_type": "CONSOLE_EXCEPTION",
+        "title": "Uncaught JavaScript Exception: ConsoleError"
+      }
+    ]
+  },
+  {
+    "name": "Hacker News (YCombinator)",
+    "url": "https://news.ycombinator.com",
+    "category": "Clean Semantic Forum",
+    "status": "COMPLETED",
+    "duration_sec": 6.62,
+    "states_discovered": 2,
+    "transitions_recorded": 4,
+    "total_bugs": 0,
+    "bug_breakdown": []
+  },
+  {
+    "name": "HttpBin API Sandbox",
+    "url": "https://httpbin.org",
+    "category": "HTTP Developer Tools",
+    "status": "COMPLETED",
+    "duration_sec": 18.89,
+    "states_discovered": 1,
+    "transitions_recorded": 3,
+    "total_bugs": 0,
+    "bug_breakdown": []
+  },
+  {
+    "name": "FastAPI Documentation",
+    "url": "https://fastapi.tiangolo.com",
+    "category": "Modern SPA / Docs",
+    "status": "COMPLETED",
+    "duration_sec": 8.48,
+    "states_discovered": 2,
+    "transitions_recorded": 4,
+    "total_bugs": 2,
+    "bug_breakdown": [
+      {
+        "id": "BUG-001",
+        "severity": "HIGH",
+        "oracle_type": "NETWORK_500",
+        "title": "Server Error 404 on Endpoint"
+      },
+      {
+        "id": "BUG-002",
+        "severity": "HIGH",
+        "oracle_type": "CONSOLE_EXCEPTION",
+        "title": "Uncaught JavaScript Exception: ConsoleError"
+      }
+    ]
+  },
+  {
+    "name": "Wikipedia Main Portal",
+    "url": "https://en.wikipedia.org/wiki/Main_Page",
+    "category": "High-Density Content",
+    "status": "COMPLETED",
+    "duration_sec": 6.59,
+    "states_discovered": 2,
+    "transitions_recorded": 4,
+    "total_bugs": 0,
+    "bug_breakdown": []
+  },
+  {
+    "name": "React Official Site",
+    "url": "https://react.dev",
+    "category": "Next.js / React 19 SPA",
+    "status": "COMPLETED",
+    "duration_sec": 5.46,
+    "states_discovered": 2,
+    "transitions_recorded": 4,
+    "total_bugs": 0,
+    "bug_breakdown": []
+  },
+  {
+    "name": "Python.org Foundation",
+    "url": "https://www.python.org",
+    "category": "Enterprise Portal",
+    "status": "COMPLETED",
+    "duration_sec": 6.12,
+    "states_discovered": 1,
+    "transitions_recorded": 3,
+    "total_bugs": 0,
+    "bug_breakdown": []
+  },
+  {
+    "name": "GitHub Public Explore",
+    "url": "https://github.com",
+    "category": "Large-Scale Production Web App",
+    "status": "COMPLETED",
+    "duration_sec": 10.1,
+    "states_discovered": 3,
+    "transitions_recorded": 5,
+    "total_bugs": 0,
+    "bug_breakdown": []
+  }
+]
